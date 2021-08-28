@@ -1,31 +1,71 @@
 body{
-    font-family: 'Merienda', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
     margin: 0;
 }
 
 h1{
-    font-size: 40px;
+    font-size: 50px;
     color: gray;
+    line-height: .5em;
 }
 
 .orange-color{
     color: orangered;
 }
+
+.menu-area{
+    display: flex;
+    height: 80px;
+}
+
+.menu-area-item{
+    width: 28%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 10px;
+}
+
+#logo{
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    text-shadow: 2px 2px 5px blue;
+    margin-top: -10px;
+}
+.menu-area-item h5{
+    display: inline;
+    margin-top: 15px;
+}
+.menu-area-item a{
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+
+#contact-no{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orangered, tomato);
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
     
 .flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
+
+
 
 .half-width{
     width: 40%;    
-    margin-left: 8%;
-    padding-left: 2%;
+    margin-left: 5%;
+    padding-left: 5%;
 }
 
 .banner-image{
-   width: 60%;
-   height: auto;
+   width: 70%;
 }
 
 .anchor-button{
@@ -60,6 +100,11 @@ h1{
     margin: 5%;
     box-shadow: 10px 10px 45px grey;
     border-radius: 15px;
+    padding-left: -20px;
+}
+
+.recepie-iteam-description{
+    padding-left: 20px;
 }
 
 .review-area{
@@ -68,7 +113,7 @@ h1{
     box-shadow: 10px 10px 35px grey;
     border-radius: 15px;
 }
-.revier-iteam{
+.review-iteam{
     width: 33%;
     text-align: center;
 }
